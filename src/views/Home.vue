@@ -1,14 +1,13 @@
 <template>
-  <div class="home">
-
-  </div>
+    <Button label="Button"/>
 </template>
 
 <script>
+import Button from 'primevue/button'
 
 export default {
   components: {
-    HelloWorld
+    Button,
   }
 }
 </script>
